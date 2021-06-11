@@ -24,7 +24,7 @@ function mult () {
     answer += num1
     i += 1
   }
-  if (neg == 1) {
+  if (neg === 1) {
     answer = 0 - answer
   }
   // return answer
